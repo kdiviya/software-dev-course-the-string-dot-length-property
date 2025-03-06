@@ -25,6 +25,11 @@ let lengthTwo;   // Length of stringTwo
 let lengthThree; // Length of stringThree
 
 // Your code here
-
+lengthOne=stringOne.length;
+console.log(stringOne + " contains " +lengthOne + " characters.");
+lengthTwo = stringTwo.length;
+console.log(stringTwo + " contains " +lengthTwo + " characters.");
+lengthThree = stringThree.length;
+console.log("This is empty string which " + stringThree + "contains " +lengthThree + " characters.");
 
 
